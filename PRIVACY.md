@@ -4,7 +4,7 @@
 ติดต่อ: webmin@hotmail.com
 
 ## สรุป
-พิมพ์เพลินเป็นแป้นพิมพ์ที่ทำงานบนเครื่องของคุณ แอปเวอร์ชันบน Google Play ไม่มีสิทธิ์ใช้อินเทอร์เน็ต ผู้พัฒนาไม่เก็บ ไม่ขาย และไม่ได้รับข้อความที่คุณพิมพ์ ไม่มีโฆษณาและไม่มีระบบวิเคราะห์การใช้งาน
+พิมพ์เพลินเป็นแป้นพิมพ์ที่ทำงานบนเครื่องของคุณ แอปไม่มีสิทธิ์ใช้อินเทอร์เน็ต ผู้พัฒนาไม่เก็บ ไม่ขาย และไม่ได้รับข้อความที่คุณพิมพ์ ไม่มีโฆษณาและไม่มีระบบวิเคราะห์การใช้งาน
 
 ## ข้อมูลที่อยู่บนเครื่องของคุณเท่านั้น
 - **คำที่จดจำ:** แป้นจำคำและคู่คำที่คุณใช้บ่อย เพื่อเสนอคำได้ดีขึ้น ไม่จำในช่องรหัสผ่าน ช่องที่แอปอื่นห้ามจดจำ หรือเมื่อเปิดโหมดส่วนตัว ล้างได้ที่ ตั้งค่า → ล้างคำที่จดจำ
@@ -38,7 +38,7 @@
 
 Developer: ChampDev · App com.champdev.pimplearn · Effective 26 October 2026 · Contact: webmin@hotmail.com
 
-PimPlearn is an on-device keyboard. The Google Play version has no internet permission. The developer does not collect, receive or sell what you type; there are no ads or analytics.
+PimPlearn is an on-device keyboard. The app has no internet permission. The developer does not collect, receive or sell what you type; there are no ads or analytics.
 
 - **On-device only:** learned words (not in password or no-learning fields, or in private mode; clear them in Settings), clipboard history (on by default, can be turned off, up to 20 items, never in private mode, password fields or text marked sensitive), pet progress (counts characters only, never text), settings and the last crash log (leaves the device only if you copy and send it yourself). Excluded from Android backup and deleted when you uninstall.
 - **Voice typing:** when you tap the mic, audio goes to your phone's speech recognition service (Android SpeechRecognizer), which belongs to the phone maker or a provider such as Google and may process it online under that provider's policy. PimPlearn does not store audio.
