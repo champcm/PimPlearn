@@ -8,11 +8,14 @@
 
 ## ข้อมูลที่อยู่บนเครื่องของคุณเท่านั้น
 - **คำที่จดจำ:** แป้นจำคำและคู่คำที่คุณใช้บ่อย เพื่อเสนอคำได้ดีขึ้น ไม่จำในช่องรหัสผ่าน ช่องที่แอปอื่นห้ามจดจำ หรือเมื่อเปิดโหมดส่วนตัว ล้างได้ที่ ตั้งค่า → ล้างคำที่จดจำ
-- **ประวัติคลิปบอร์ด:** ปิดไว้เป็นค่าเริ่มต้น ถ้าเปิด จะเก็บข้อความที่คัดลอกล่าสุดไม่เกิน 20 รายการบนเครื่อง ไม่เก็บในโหมดส่วนตัว ช่องรหัสผ่าน หรือข้อความที่แอปอื่นระบุว่าลับ
+- **ประวัติคลิปบอร์ด:** เปิดไว้เป็นค่าเริ่มต้น และปิดได้ที่ ตั้งค่า → คลิปบอร์ด เก็บข้อความที่คัดลอกล่าสุดไม่เกิน 20 รายการบนเครื่องเท่านั้น ไม่เก็บในโหมดส่วนตัว ช่องรหัสผ่าน หรือข้อความที่แอปอื่นระบุว่าลับ ล้างได้ทุกเมื่อ
 - **สัตว์เลี้ยง:** เก็บชื่อ ชนิด ความรัก หัวใจ เลเวล และรายชื่อเพื่อน นับเฉพาะจำนวนตัวอักษรที่พิมพ์ ไม่เก็บข้อความ
 - **การตั้งค่าและบันทึกข้อผิดพลาดล่าสุด:** อยู่บนเครื่อง และจะออกจากเครื่องก็ต่อเมื่อคุณกด "คัดลอกข้อมูลข้อผิดพลาด" แล้วนำไปส่งเอง
 
 ข้อมูลเหล่านี้ไม่รวมใน Android backup และจะถูกลบทั้งหมดเมื่อถอนการติดตั้งแอป
+
+## การกรอกข้อมูลอัตโนมัติ (Android 11 ขึ้นไป)
+ตัวจัดการรหัสผ่านที่คุณเลือกในเครื่อง เช่น Google Password Manager อาจแสดงปุ่มกรอกรหัสผ่านหรือที่อยู่ในแถบด้านบนของแป้น ปุ่มเหล่านี้วาดและกรอกข้อมูลโดยบริการนั้นโดยตรง พิมพ์เพลินไม่เห็นและไม่เก็บข้อมูลที่กรอก
 
 ## การพิมพ์ด้วยเสียง
 เมื่อคุณแตะไมค์ แอปจะส่งเสียงให้บริการรู้จำเสียงของโทรศัพท์ (Android SpeechRecognizer) แปลงเป็นข้อความ บริการนี้เป็นของผู้ผลิตโทรศัพท์หรือผู้ให้บริการ เช่น Google และอาจส่งเสียงไปประมวลผลทางอินเทอร์เน็ตตามนโยบายของผู้ให้บริการนั้น พิมพ์เพลินไม่บันทึกเสียงไว้ และใช้ไมโครโฟนเฉพาะตอนที่คุณแตะไมค์เท่านั้น
@@ -37,7 +40,8 @@ Developer: ChampDev · App com.champdev.pimplearn · Effective 26 October 2026 �
 
 PimPlearn is an on-device keyboard. The Google Play version has no internet permission. The developer does not collect, receive or sell what you type; there are no ads or analytics.
 
-- **On-device only:** learned words (not in password or no-learning fields, or in private mode; clear them in Settings), optional clipboard history (off by default, up to 20 items), pet progress (counts characters only, never text), settings and the last crash log (leaves the device only if you copy and send it yourself). Excluded from Android backup and deleted when you uninstall.
+- **On-device only:** learned words (not in password or no-learning fields, or in private mode; clear them in Settings), clipboard history (on by default, can be turned off, up to 20 items, never in private mode, password fields or text marked sensitive), pet progress (counts characters only, never text), settings and the last crash log (leaves the device only if you copy and send it yourself). Excluded from Android backup and deleted when you uninstall.
 - **Voice typing:** when you tap the mic, audio goes to your phone's speech recognition service (Android SpeechRecognizer), which belongs to the phone maker or a provider such as Google and may process it online under that provider's policy. PimPlearn does not store audio.
 - **Bluetooth pet friends:** only after you tap "search" on the pet page, for up to 45 seconds. A nearby phone that is also searching receives only the pet's random ID, name, species, level, hearts and visit count. No account, phone number or device identifier is sent. Android 11 and older require the location permission for Bluetooth scanning; the app never reads your location.
+- **Autofill (Android 11+):** your chosen autofill service, such as Google Password Manager, may show fill chips in the keyboard's top strip. The service draws them and fills the field itself; PimPlearn never sees or stores that data.
 - **Children:** not directed at children under 13; no personal data is collected from anyone.
